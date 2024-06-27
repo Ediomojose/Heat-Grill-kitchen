@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Film-Noir-Adventure-Italic";
+  src: url("../src//assets/fonts/FilmNoir/FilmNoirAdventure-Italic.woff") format('woff'),
+      url("../src//assets/fonts/FilmNoir/FilmNoirAdventure-Italic.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: "Film-Noir-Adventure-Regular";
+  src: url("../src//assets/fonts/FilmNoir/FilmNoirAdventure.woff") format('woff'),
+      url("../src//assets/fonts/FilmNoir/FilmNoirAdventure.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: "Play-Fair-Display-Black";
+  src: url("../src//assets/fonts/PlayFairDisplay/PlayfairDisplay-Black.woff") format('woff'),
+      url("../src//assets/fonts/PlayFairDisplay/PlayfairDisplay-Black.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: "Play-Fair-Display-Regular";
+  src: url("../src//assets/fonts/PlayFairDisplay/PlayfairDisplay-Regular.woff") format('woff'),
+      url("../src//assets/fonts/PlayFairDisplay/PlayfairDisplay-Regular.woff2") format('woff2');
+}
