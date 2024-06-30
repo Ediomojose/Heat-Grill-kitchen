@@ -1,47 +1,4 @@
 import React from "react";
-import BreakfastImg from "../../../../assets/media/images/menu-images/pexels-kyleroxas.jpg";
-import BrunchImg from "../../../../assets/media/images/menu-images/pexels-geraldjakeabangan.jpg";
-import LunchImg from "../../../../assets/media/images/menu-images/pexels-pixabay.jpg";
-import DinnerImg from "../../../../assets/media/images/menu-images/pexels-tonyleong.jpg";
-
-const CardData = [
-  {
-    id: 1,
-    title: "Breakfast",
-    description:
-      "Collection of well prepared breakfast that suit your health needs.",
-    price: 30,
-    image: BreakfastImg,
-    alt: "Rice Image",
-  },
-  {
-    id: 2,
-    title: "Brunch",
-    description:
-      "Collection of well prepared breakfast that suit your health needs.",
-    price: 30,
-    image: BrunchImg,
-    alt: "Rice Image",
-  },
-  {
-    id: 3,
-    title: "Lunch",
-    description:
-      "Collection of well prepared breakfast that suit your health needs.",
-    price: 30,
-    image: LunchImg,
-    alt: "Rice Image",
-  },
-  {
-    id: 4,
-    title: "Dinner",
-    description:
-      "Collection of well prepared breakfast that suit your health needs.",
-    price: 30,
-    image: DinnerImg,
-    alt: "Rice Image",
-  },
-];
 
 const Card = () => {
   return (

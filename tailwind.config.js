@@ -23,6 +23,7 @@ export default {
         'brunch-img': "url('./src/assets/media/images/menu-images/pexels-kyleroxas.jpg')",
         'launch-img': "url('./src/assets/media/images/menu-images/pexels-pixabay.jpg')",
         'dinner-img': "url('./src/assets/media/images/menu-images/pexels-tonyleong.jpg')",
+        'foodtable-img': "url('./src/assets/media/images/hero-images/food.jpg')",
       }
     },
   },
