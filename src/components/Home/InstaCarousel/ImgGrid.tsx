@@ -9,7 +9,6 @@ const ImgGrid = () => {
   return (
     <>
     
-   <h2 className={ `text-center text-2xl font-playFairBlack pt-10`}>Follow us on Instagram</h2>
     <section className={`grid grid-cols-3 justify-center items-center gap-2 md:gap-5 px-5 md:w-1/2 mx-auto pt-5 pb-10`}>
       <div className={`flex flex-col gap-2 md:gap-5`}>
         <img src={InstaImg_1} alt="" className={`rounded-lg shadow-xl`}/>
