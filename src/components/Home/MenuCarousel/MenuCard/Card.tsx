@@ -10,8 +10,8 @@ const Card = () => {
           <div
             className={`absolute bottom-0 p-3 backdrop-opacity-10 backdrop-invert bg-black/50 text-white rounded-br-xl rounded-bl-xl`}
           >
-            <h3 className={`font-playFairBlack text-lg md:text-xl pb-2`}>Breakfast</h3>
-            <p className={`font-playRegular text-xs md:text-sm`}>
+            <h3 className={`font-playFairBlack text-lg font-ClabBold md:text-xl pb-2`}>Breakfast</h3>
+            <p className={`font-playRegular text-xs font-InterRegular md:text-sm`}>
               Collection of well prepared breakfast that suit your health needs.
             </p>
           </div>
@@ -28,8 +28,8 @@ const Card = () => {
           <div
             className={`absolute bottom-0 p-3 backdrop-opacity-10 backdrop-invert bg-black/50 text-white rounded-br-xl rounded-bl-xl`}
           >
-            <h3 className={`font-playFairBlack text-lg md:text-xl pb-2`}>Brunch</h3>
-            <p className={`font-playRegular text-xs md:text-sm`}>
+            <h3 className={`font-playFairBlack text-lg font-ClabBold md:text-xl pb-2`}>Brunch</h3>
+            <p className={`font-playRegular text-xs font-InterRegular md:text-sm`}>
               Collection of well prepared breakfast that suit your health needs.
             </p>
           </div>
@@ -46,8 +46,8 @@ const Card = () => {
           <div
             className={`absolute bottom-0 p-3 backdrop-opacity-10 backdrop-invert bg-black/50 text-white rounded-br-xl rounded-bl-xl`}
           >
-            <h3 className={`font-playFairBlack text-lg md:text-xl pb-2`}>Launch</h3>
-            <p className={`font-playRegular text-xs md:text-sm`}>
+            <h3 className={`font-playFairBlack text-lg font-ClabBold md:text-xl pb-2`}>Launch</h3>
+            <p className={`font-playRegular text-xs font-InterRegular md:text-sm`}>
               Collection of well prepared breakfast that suit your health needs.
             </p>
           </div>
@@ -64,8 +64,8 @@ const Card = () => {
           <div
             className={`absolute bottom-0 p-3 backdrop-opacity-10 backdrop-invert bg-black/50 text-white rounded-br-xl rounded-bl-xl`}
           >
-            <h3 className={`font-playFairBlack text-lg md:text-xl pb-2`}>Dinner</h3>
-            <p className={`font-playRegular text-xs md:text-sm`}>
+            <h3 className={`font-playFairBlack text-lg font-ClabBold md:text-xl pb-2`}>Dinner</h3>
+            <p className={`font-playRegular text-xs font-InterRegular md:text-sm`}>
               Collection of well prepared breakfast that suit your health needs.
             </p>
           </div>

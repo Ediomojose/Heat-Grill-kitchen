@@ -14,17 +14,27 @@ export default {
         filmNoirRegular: ["Film-Noir-Adventure-Regular", "serif"],
         playFairBlack: ["Play-Fair-Display-Black", "sans-serif"],
         playFairRegular: ["Play-Fair-Display-Regular", "serif"],
+        ThunderBlack: ["ThunderBlack", "sans-serif"],
+        ThunderMedium: ["ThunderMedium", "serif"],
+        ClabBold: ["ClabBold", "serif"],
+        CirkaBold: ["CirkaBold", "serif"],
+        InterRegular:['InterRegular', 'serif']
       },
       fontSize: {
         xxs: ["10px", "14px"],
       },
       backgroundImage: {
-        'breakfast-img': "url('./src/assets/media/images/menu-images/pexels-geraldjakeabangan.jpg')",
-        'brunch-img': "url('./src/assets/media/images/menu-images/pexels-kyleroxas.jpg')",
-        'launch-img': "url('./src/assets/media/images/menu-images/pexels-pixabay.jpg')",
-        'dinner-img': "url('./src/assets/media/images/menu-images/pexels-tonyleong.jpg')",
-        'foodtable-img': "url('./src/assets/media/images/hero-images/food.jpg')",
-      }
+        "breakfast-img":
+          "url('./src/assets/media/images/menu-images/pexels-geraldjakeabangan.jpg')",
+        "brunch-img":
+          "url('./src/assets/media/images/menu-images/pexels-kyleroxas.jpg')",
+        "launch-img":
+          "url('./src/assets/media/images/menu-images/pexels-pixabay.jpg')",
+        "dinner-img":
+          "url('./src/assets/media/images/menu-images/pexels-tonyleong.jpg')",
+        "foodtable-img":
+          "url('./src/assets/media/images/hero-images/food.jpg')",
+      },
     },
   },
   plugins: [],

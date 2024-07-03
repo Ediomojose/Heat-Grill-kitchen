@@ -1,6 +1,8 @@
-import React, {ReactNode} from 'react'
+import React, {ReactNode, useRef} from 'react'
 import WebNavigation from '../Navigation/WebNavigation'
 import WebpageFooter from '../Footer/WebpageFooter'
+import SmoothScroll from '../SmoothScroll/SmoothScroll';
+
 
 interface TemplateProps{
     children: ReactNode;
@@ -8,12 +10,15 @@ interface TemplateProps{
 
 const Template: React.FC<TemplateProps> = ({children}) => {
   return (
-    <main className="">
+    <main className={``} >
+      <SmoothScroll>
+
         <WebNavigation/>
-        <section className=''>
+        <section className='2xl:px-48 2xl:bg-white'>
             {children}
         </section>
         <WebpageFooter/>
+      </SmoothScroll>
     </main>
   )
 }

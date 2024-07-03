@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import XLogo from "../../assets/media/logo/icons8-twitterx-24.png";
 import YoutubeLogo from "../../assets/media/logo/icons8-youtube-24.png";
@@ -40,8 +39,8 @@ const WebpageFooter = () => {
   return (
     <footer className={`bg-brandBrown grid grid-cols-1 justify-center items-start gap-10 text-white md:grid-cols-3 px-10 lg:px-40 py-12`}>
       <aside className={``}>
-        <h3 className={`text-lg font-bold pb-4`}>Heat & Grill Kitchen</h3>
-        <p className={`text-xs lg:text-sm`}>
+        <h3 className={`text-lg font-CirkaBold pb-4`}>Heat & Grill Kitchen</h3>
+        <p className={`text-xs lg:text-sm font-InterRegular`}>
           Where culinary artistry meets the vibrant flavors of grilled
           perfection. Our passion lies in crafting mouthwatering dishes that are
           grilled to perfection, using the finest ingredients and innovative
@@ -58,10 +57,10 @@ const WebpageFooter = () => {
         </ul>
       </aside>
       <aside className={``}>
-        <h3 className={`text-lg font-bold pb-4`}>Links</h3>
-        <ul className={`text-xs lg:text-sm`}>
-          {NavigationData.map((data) => (
-            <li className={`pb-1`}>
+        <h3 className={`text-lg pb-4 font-CirkaBold `}>Links</h3>
+        <ul className={`text-xs lg:text-sm font-InterRegular`}>
+          {NavigationData.map((data, idx) => (
+            <li className={`pb-1`} key={idx}>
               <Link to={data.link} title={data.pageName}>
                 {data.pageName}
               </Link>
@@ -70,8 +69,8 @@ const WebpageFooter = () => {
         </ul>
       </aside>
       <aside className={``}>
-        <h3 className={`text-lg font-bold pb-4`}>Address</h3>
-        <p className={`text-xs lg:text-sm`}>120 Fulham Road London, United Kingdom</p>
+        <h3 className={`text-lg font-CirkaBold  pb-4`}>Address</h3>
+        <p className={`text-xs lg:text-sm font-InterRegular`}>120 Fulham Road London, United Kingdom</p>
       </aside>
     </footer>
   );

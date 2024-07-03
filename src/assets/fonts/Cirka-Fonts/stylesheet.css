@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Cirka';
+    src: url('Cirka-Regular.woff2') format('woff2'),
+        url('Cirka-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cirka';
+    src: url('Cirka-Bold.woff2') format('woff2'),
+        url('Cirka-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cirka';
+    src: url('Cirka-Light.woff2') format('woff2'),
+        url('Cirka-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

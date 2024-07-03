@@ -5,6 +5,7 @@ import imgCusThree from "../../../assets/media/images/user-images/62.jpg";
 import imgCusFour from "../../../assets/media/images/user-images/69.jpg";
 import imgCusFive from "../../../assets/media/images/user-images/70.jpg";
 import imgCusSix from "../../../assets/media/images/user-images/77.jpg";
+import SmoothScroll from "../../SmoothScroll/SmoothScroll";
 
 const CustomerData = [
   {
@@ -66,13 +67,13 @@ const CusTestimonial = () => {
   return (
     <>
     
-        <article className={`flex items-center  py-4 mx-5   gap-3 overflow-x-scroll snap-mandatory snap-x no-scrollbar lg:px-20 lg:mx-20"`}>
+        <article className={`flex items-center  py-4 mx-5   gap-3 overflow-x-scroll snap-mandatory snap-x no-scrollbar lg:px-20 lg:mx-20 ease-in duration-500 transition-all`}>
           {CustomerData.map((data) => (
             <div
-              className={`grid grid-cols-1 justify-center items-center w-full  shrink-0   bg-brandWhite1x/80 p-5 px-10 rounded-xl shadow-xl md:w-2/5 h-56`}
+              className={`grid grid-cols-1 justify-center items-center w-full  shrink-0   bg-brandWhite1x/80 p-5 px-10 rounded-xl shadow-xl md:w-2/5 h-56 `}
               key={data.id}
             >
-              <p className={`test-sm`}>{data.review}</p>
+              <p className={`test-sm font-InterRegular text-gray-500`}>{data.review}</p>
               <div className={`flex gap-3 items-center`}>
                 <img
                   src={data.image}
@@ -80,8 +81,8 @@ const CusTestimonial = () => {
                   className={`rounded-full w-10 h-10`}
                 />
                 <div className="">
-                  <p className={`font-playFairBlack text-sm`}>{data.name}</p>
-                  <p className="">{data.country}</p>
+                  <p className={`font-InterRegular font-bold text-sm`}>{data.name}</p>
+                  <p className={`font-InterRegular text-gray-500`}>{data.country}</p>
                 </div>
               </div>
             </div>

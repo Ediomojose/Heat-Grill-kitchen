@@ -10,8 +10,8 @@ const ThirdHeroSection = () => {
         className={`backdrop-blur-sm bg-black/70 w-full h-full text-white text-center py-24 px-7`}
       >
         {" "}
-        <h3 className={`font-playFairBlack  text-5xl `}>Who we are?</h3>{" "}
-        <p className={`text-xs md:text-sm py-3`}>
+        <h3 className={`font-CirkaBold  text-5xl `}>Who we are?</h3>{" "}
+        <p className={`text-xs md:text-sm py-3 font-InterRegular`}>
           {
             "We are passionate about creating exceptional dining experiences that bring people together"
           }

@@ -29,13 +29,13 @@ const FHeroBannner = () => {
           <div
             className={` absolute bottom-[25rem]  md:right-[48%] md:bottom-32 lg:bottom-14 bg-brandLightBrown p-4 md:w-[30%] lg:w-[18%] md:rounded-xl shadow-2xl`}
           >
-            <h3 className={`font-playFairBlack p-1 text-sm`}>
+            <h3 className={`font-InterRegular p-1 text-sm `}>
               Visit us for the ultimate culinary adventure
             </h3>
 
             {ContentData.map((data) => (
               <ul key={data.id} className={`flex flex-row gap-3 text-xs p-1`}>
-                <li>
+                <li className={`font-InterRegular`}>
                   <img src={data.image} alt="" className={`w-5`} />
                 </li>
                 <li>{data.title}</li>
@@ -44,12 +44,12 @@ const FHeroBannner = () => {
           </div>
         </div>
         <div className={`px-5 md:pl-5`}>
-          <h2 className={`font-playFairBlack text-3xl pb-4`}>
+          <h2 className={`font-CirkaBold text-3xl md:text-4xl pb-4`}>
             {`A Sophisticated And`}
             <br />
             {`Traditional Cuisine `}{" "}
           </h2>
-          <div className={`pb-3`}>
+          <div className={`pb-3 font-InterRegular`}>
             <p className={`text-justify text-sm lg:text-base pb-5`}>
               {`This is where  culinary elegance meets timeless tradition. Indulge in our meticulously crafted dishes, blending rich, authentic flavors with refined, contemporary touches`}
             </p>
