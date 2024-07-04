@@ -14,7 +14,7 @@ const WebNavigation = () => {
     <header
       className={`bg-white shadow-md flex flex-row justify-between items-center py-5 px-7 z-40 sticky top-0`}
     >
-      <h1 className={`text-sm md:text-lg font-CirkaBold ring-2 ring-brandBrown px-1`}>Heat & Grill Kitchen</h1>
+      <h1 className={`text-sm md:text-lg font-CirkaBold px-1`}>Heat & Grill Kitchen</h1>
       <nav
         className={`flex flex-row items-center gap-16 lg:gap-64 text-xl md:text-base`}
       >

@@ -18,7 +18,7 @@ export default {
         ThunderMedium: ["ThunderMedium", "serif"],
         ClabBold: ["ClabBold", "serif"],
         CirkaBold: ["CirkaBold", "serif"],
-        InterRegular:['InterRegular', 'serif']
+        InterRegular: ["InterRegular", "serif"],
       },
       fontSize: {
         xxs: ["10px", "14px"],
@@ -34,6 +34,20 @@ export default {
           "url('./src/assets/media/images/menu-images/pexels-tonyleong.jpg')",
         "foodtable-img":
           "url('./src/assets/media/images/hero-images/food.jpg')",
+      },
+      animation: {
+        marquee: "marquee 25s linear infinite",
+        marqueeSec: "marqueeSec 25s linear infinite",
+      },
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+        marqueeSec: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(0%)" },
+        },
       },
     },
   },

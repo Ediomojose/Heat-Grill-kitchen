@@ -10,12 +10,14 @@ import ThirdHeroSection from "./ThirdHeroBanner/ThirdHeroSection";
 import ImgGrid from "./InstaCarousel/ImgGrid";
 import { motion } from "framer-motion";
 import SmoothScroll from "../SmoothScroll/SmoothScroll";
+import Marquee from "./Marquee/Marquee";
 
 const HomePage = () => {
   return (
     <>
       <Template>
         <HeroBanner />
+        <Marquee/>
         <FHeroBannner />
         <MenuCard />
         <SecHeroSection />
