@@ -1,4 +1,3 @@
-import React, { useLayoutEffect, useRef } from "react";
 import Template from "../Widget/Template";
 import HeroBanner from "./TopHeroSection/HeroBanner/HeroBanner";
 import FHeroBannner from "./FirstHeroBanner/FHeroBannner";
@@ -8,8 +7,6 @@ import CusTestimonial from "./TestimonialCarousel/CusTestimonial";
 import OrderForm from "./OrderForm/OrderForm";
 import ThirdHeroSection from "./ThirdHeroBanner/ThirdHeroSection";
 import ImgGrid from "./InstaCarousel/ImgGrid";
-import { motion } from "framer-motion";
-import SmoothScroll from "../SmoothScroll/SmoothScroll";
 import Marquee from "./Marquee/Marquee";
 
 const HomePage = () => {

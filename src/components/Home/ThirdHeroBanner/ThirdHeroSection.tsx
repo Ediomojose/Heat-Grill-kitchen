@@ -1,4 +1,3 @@
-import React from "react";
 import ReuseableButton from "../../Buttons/ReuseableButton";
 
 const ThirdHeroSection = () => {

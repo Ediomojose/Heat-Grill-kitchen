@@ -1,4 +1,3 @@
-import React from "react";
 import Resturant from "../../../assets/media/images/hero-images/table.jpg";
 import LocationIcon from "../../../assets/media/icons/icons8-location-30 (2).png";
 import ClockIcon from "../../../assets/media/icons/icons8-clock-30.png";

@@ -1,8 +1,5 @@
-import React from "react";
-import GiantEagle from "../../../assets/media/logo/id5J6yJOhQ_1720050272204.svg";
 import Opay from "../../../assets/media/logo/id6sbCso4N_1720050536120.svg";
 import ChikenRepublic from "../../../assets/media/logo/idIQa36aT9_logos.svg";
-import Chowdeck from "../../../assets/media/logo/ideKhAS7QO_1720050331242.svg";
 import Supermart from "../../../assets/media/logo/idnk2wSe7A_1720050595266.svg";
 import UberEats from "../../../assets/media/logo/idtO8zuQN9_1720050164572.svg";
 

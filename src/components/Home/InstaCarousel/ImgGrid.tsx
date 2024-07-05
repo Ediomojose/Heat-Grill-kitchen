@@ -1,10 +1,8 @@
-import React from "react";
 import InstaImg_1 from "../../../assets/media/images/insta-images/asparagus.jpg";
 import InstaImg_2 from "../../../assets/media/images/insta-images/food-perfit.jpg";
 import InstaImg_3 from "../../../assets/media/images/insta-images/food-rice.jpg";
 import InstaImg_4 from "../../../assets/media/images/insta-images/food.jpg";
 import InstaImg_5 from "../../../assets/media/images/insta-images/hamburger.jpg";
-import { motion } from "framer-motion";
 
 
 const ImgGrid = () => {

@@ -1,7 +1,6 @@
 import React, { ReactNode, useRef } from "react";
 import WebNavigation from "../Navigation/WebNavigation";
 import WebpageFooter from "../Footer/WebpageFooter";
-import SmoothScroll from "../SmoothScroll/SmoothScroll";
 
 interface TemplateProps {
   children: ReactNode;

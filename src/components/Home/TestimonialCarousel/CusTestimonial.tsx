@@ -1,11 +1,9 @@
-import React from "react";
 import imgCusOne from "../../../assets/media/images/user-images/2.jpg";
 import imgCusTwo from "../../../assets/media/images/user-images/30.jpg";
 import imgCusThree from "../../../assets/media/images/user-images/62.jpg";
 import imgCusFour from "../../../assets/media/images/user-images/69.jpg";
 import imgCusFive from "../../../assets/media/images/user-images/70.jpg";
 import imgCusSix from "../../../assets/media/images/user-images/77.jpg";
-import SmoothScroll from "../../SmoothScroll/SmoothScroll";
 
 const CustomerData = [
   {
