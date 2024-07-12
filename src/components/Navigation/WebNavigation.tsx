@@ -2,7 +2,6 @@ import  { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { NavigationData } from "../Data/NavigationData";
 import { IoReorderTwoOutline, IoCloseOutline } from "react-icons/io5";
-import { motion, animate } from "framer-motion";
 
 const WebNavigation = () => {
   const [isOpen, setIsOpen] = useState(false);

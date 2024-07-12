@@ -1,4 +1,4 @@
-import React, { ReactNode, useRef } from "react";
+import React, { ReactNode } from "react";
 import WebNavigation from "../Navigation/WebNavigation";
 import WebpageFooter from "../Footer/WebpageFooter";
 
