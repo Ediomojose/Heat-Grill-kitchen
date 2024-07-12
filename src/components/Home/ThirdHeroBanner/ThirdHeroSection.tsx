@@ -3,7 +3,7 @@ import ReuseableButton from "../../Buttons/ReuseableButton";
 const ThirdHeroSection = () => {
   return (
     <section
-      className={`w-full h-96 bg-foodtable-img flex flex-col justify-center items-center `}
+      className={`w-full  bg-foodtable-img flex flex-col justify-center items-center `}
     >
       <div
         className={`backdrop-blur-sm bg-black/70 w-full h-full text-white text-center py-24 px-7`}
